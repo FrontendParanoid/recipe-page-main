@@ -1,0 +1,149 @@
+    /* Document elements */
+    body 
+    {
+        font-size: 16px;
+        font-family: Outfit;
+        font-weight: 400;
+
+        background-color: hsl(30, 54%, 90%);
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main 
+    {
+        background-color: white;
+
+        position: relative;
+
+        width: 40%;
+        height: 100%;
+        padding: 3%;
+        margin: 3%;
+        border-radius: 15px;
+    }
+    /* Main elements */
+    .ingredients ul li,
+    .preparation ul li,
+    .instructions ol li
+    {
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    main h2
+    {
+        color: hsl(14, 45%, 36%);
+        font-size: 24px;
+    }
+
+    /* Title section */
+    main img 
+    {
+        max-width: 90%;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .mainimg
+    {
+        text-align: center;
+    }
+    .title h1
+    {
+        color: hsl(24, 5%, 18%);
+        font-size: 36px;
+        font-family: 'Young Serif';
+    }
+    .title p 
+    {
+        color: hsl(30, 10%, 34%);
+    }
+
+    /* Preparation section */
+    .preparation
+    {
+        background-color: hsl(330, 100%, 98%);
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .preparation h3
+    {
+        color: hsl(332, 51%, 32%);
+    }
+    .preparation 
+    {
+        color: hsl(30, 10%, 34%);
+    }
+    .prespan
+    {
+        font-weight: bold;
+        color: hsl(30, 10%, 34%);
+
+    }
+
+    /* Ingredients section */
+    .ingredients
+    {
+        padding: 10px;
+    }
+
+    /* Instructions section */
+    .instructions ol 
+    {
+        color: hsl(30, 10%, 34%);
+    }
+
+    /* Nutrition section */
+    .nutrition table 
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .nutrition td
+    {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+    }
+
+    .nutrition th 
+    {
+        color: rgb(74, 74, 74);
+    }
+
+    .nutrition th, .nutrition td
+    {
+        border-bottom: 1px solid rgb(74, 74, 74);
+        ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nutrition  tr:last-child th,
+    .nutrition  tr:last-child td
+    {
+        border-bottom: none;
+    }
+
+@media only screen and (max-width: 900px)
+{
+    main 
+    {
+        width: 60%;        
+        padding: 5%; 
+        margin: 5%; 
+    }
+    main img 
+    {
+        max-width: 100%;
+    }
+    .ingredients ul li,
+    .preparation ul li,
+    .instructions ol li
+    {
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+}
